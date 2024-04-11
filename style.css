@@ -1,0 +1,106 @@
+
+
+body {
+    background-color: rgb(230, 230, 230);
+    color: rgb(20, 20, 20);
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+}
+
+h1 {
+    color: #01200F;
+    font-size: 45px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2 {
+    color: #00487C;
+    font-family: "Aleo", serif;
+}
+
+a {
+    color: #FF312E;
+    transition: color 0.3s ease;
+    text-decoration: none
+}
+
+a:hover {
+    color: #E6AF2E;
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+    margin: 0 auto;
+    max-width: 200px;
+}
+
+.btn-blue {
+    background-color: #FF312E;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.btn-blue:hover {
+    background-color: black;
+    color: white;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+    font-size: 50px;
+    color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover {
+    font-size: 50px;
+    color: black;
+}
+
+#introduction p {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Media Queries */
+@media (max-width: 960px) {
+    .container {
+        width: 700px;
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        width: 300px;
+    }
+}
